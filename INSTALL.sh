@@ -26,10 +26,10 @@ function copy_files {
   echo "Copying files..."
   mkdir -p "$1"
 
-  cp -r "src/epitech" "$1/epitech"
+  cp -r "epitech-emacs/src/epitech" "$1/epitech"
 
   mkdir -p "$1/site-start.d"
-  cp "src/site-start.d/epitech-init.el" "$1/site-start.d"
+  cp "epitech-emacs/src/site-start.d/epitech-init.el" "$1/site-start.d"
 
   cp "LICENSE" "$1/epitech/LICENSE"
 }
