@@ -31,7 +31,7 @@ function copy_files {
   mkdir -p "$1/site-start.d"
   cp "epitech-emacs/src/site-start.d/epitech-init.el" "$1/site-start.d"
 
-  cp "LICENSE" "$1/epitech/LICENSE"
+  cp "epitech-emacs/LICENSE" "$1/epitech/LICENSE"
 }
 
 function local_install {
